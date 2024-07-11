@@ -15,6 +15,7 @@ async function getDataFromWebPage(){
 
     console.log(result);
     await browser.close();
+    return result
 }
 
-getDataFromWebPage();
+module.exports = { getDataFromWebPage };
