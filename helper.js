@@ -6,7 +6,7 @@ async function getDataFromWebPage(){
         slowMo: 3000
     });
     const page = await browser.newPage();
-    await page.goto('https://ratoneando.ar/?q=a');
+    await page.goto('https://');
 
     const result = await page.evaluate(() => {
         const element = document.getElementsByClassName('sc-bqWxrE ivfBCn')[0];
